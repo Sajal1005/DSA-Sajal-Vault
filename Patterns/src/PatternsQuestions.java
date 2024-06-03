@@ -308,6 +308,117 @@ public class PatternsQuestions {
 //            System.out.println();
 //        }
 
+//        19.
+//        **********
+//        ****  ****
+//        ***    ***
+//        **      **
+//        *        *
+//        *        *
+//        **      **
+//        ***    ***
+//        ****  ****
+//        **********
 
+//        for(int i=0;i<n;i++){
+//            for(int j=0;j<n-i;j++){
+//                System.out.print("*");
+//            }
+//            for(int j=0;j<2*i;j++){
+//                System.out.print(" ");
+//            }
+//            for(int j=0;j<n-i;j++){
+//                System.out.print("*");
+//            }
+//            System.out.println();
+//        }
+//        for(int i=0;i<n;i++){
+//            for(int j=0;j<i+1;j++){
+//                System.out.print("*");
+//            }
+//            for(int j=0;j<2*n-2*i-2;j++){
+//                System.out.print(" ");
+//            }
+//            for(int j=0;j<i+1;j++){
+//                System.out.print("*");
+//            }
+//            System.out.println();
+//        }
+
+
+//        20.
+//        *        *
+//        **      **
+//        ***    ***
+//        ****  ****
+//        **********
+//        ****  ****
+//        ***    ***
+//        **      **
+//        *        *
+
+//        for(int i=0;i<n;i++){
+//            for(int j=0;j<i+1;j++){
+//                System.out.print("*");
+//            }
+//            for(int j=0;j<2*n-2*i-2;j++){
+//                System.out.print(" ");
+//            }
+//            for(int j=0;j<i+1;j++){
+//                System.out.print("*");
+//            }
+//            System.out.println();
+//        }
+//        for(int i=0;i<n-1;i++){
+//            for(int j=0;j<n-i-1;j++){
+//                System.out.print("*");
+//            }
+//            for(int j=0;j<2*i+2;j++){
+//                System.out.print(" ");
+//            }
+//            for(int j=0;j<n-i-1;j++){
+//                System.out.print("*");
+//            }
+//            System.out.println();
+//        }
+
+
+//        21.
+//        ****
+//        *  *
+//        *  *
+//        ****
+
+//        for(int i=0;i<n;i++){
+//            for(int j=0;j<n;j++){
+//                if(i==0 || j==0 || i==n-1 || j==n-1){
+//                    System.out.print("*");
+//                }else{
+//                    System.out.print(" ");
+//                }
+//            }
+//            System.out.println();
+//        }
+
+
+//        22.
+//        4444444
+//        4333334
+//        4322234
+//        4321234
+//        4322234
+//        4333334
+//        4444444
+
+//        for(int i=0;i<2*n-1;i++){
+//            for(int j=0;j<2*n-1;j++){
+//                int k = Math.min(Math.min(i,j),Math.min(2*n-i-2,2*n-j-2));
+//                System.out.print(n-k);
+//            }
+//            System.out.println();
+//        }
+
+
+        
     }
 }
