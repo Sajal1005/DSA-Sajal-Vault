@@ -20,6 +20,7 @@ public class DecToBin {
         System.out.println(Integer.toBinaryString(n));
 //        commit1
 //        commit1
+//        commit1
 
     }
 }
