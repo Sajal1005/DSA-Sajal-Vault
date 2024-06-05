@@ -18,5 +18,7 @@ public class DecToBin {
 
 //        Inbuilt
         System.out.println(Integer.toBinaryString(n));
+//        commit1
+
     }
 }
